@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
         googleBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String google = "https://www.yahoo.ie";
+                String google = "https://www.google.ie";
                 Uri webAddress = Uri.parse(google);
 
                 Intent gotoGoogle = new Intent(Intent.ACTION_VIEW, webAddress);
